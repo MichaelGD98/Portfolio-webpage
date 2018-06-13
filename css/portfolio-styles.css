@@ -1,0 +1,201 @@
+body {
+    background-image: url("../images/binary.jpg"); 
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+}
+
+/* The top header  */
+.wrapper {
+    width: 720px;
+    margin: 0px auto; 
+}
+
+div.wrapper {
+     position: absolute;
+     float: left; 
+     padding-left: 150px; 
+}
+
+/* the box containing the work */
+.entry {
+    width: 220px;
+    float: left;
+    margin: 10px;
+    height: 198px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+figure {
+    display: block;
+    width: 202px;
+    height: 170px;
+    background-color: #021847;
+    margin: 0px;
+    padding: 9px;
+    text-align: left;
+}
+
+/* The size of the images entry */
+figure img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #d6d6d6;
+}
+
+figcaption, a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+}
+
+/* NOT sure what this or the next one is */
+.side-nav .btn:hover {
+    background-color: rgb(2, 62, 152);
+}
+
+button.btn {
+    width: 100px;
+    height: 40px;
+    color:#ffffff;
+    background-color:rgb(0, 149, 255);
+}
+/* ul element for assignments */
+.hide {
+    display: none;
+    padding-left: 50px;
+}
+
+audio {
+    width: 250px;
+    padding-right: 100%;
+}
+
+/* The actual navbar container (right hand of screen) */
+.navbar {
+    display: block;
+    overflow: hidden;
+    background-color: rgb(0, 149, 255);
+    width: 300px;
+    padding-left: 10px;
+    
+}
+div.navbar {
+    opacity: 0.8;
+    border-radius: 8px;
+}
+/* The actual navbar container (right hand of screen) */
+#align {
+    width: 100px;
+    display: block;
+    float: right;
+    padding-right: 250px; 
+}
+
+/* This is for the links in the navbar */
+.navbar a {
+    float: center;
+    font-size: 16px;
+    color:rgb(0, 165, 236);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* the drop down menu */
+.drop-work {
+    float: left;
+    overflow: hidden;
+}
+
+/* the button once the drop down is opened */
+.drop-work .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 4px 10px;
+    background-color: inherit;
+    margin: 0;
+}
+
+/* This is the hidden drop down content */
+.dropdown-content a {
+    float: none;
+    color: white; 
+    text-decoration: none;
+    display: block;
+    text-align: left; 
+}
+
+/* more coloring to the drop down links */
+.dropdown-content a:hover {
+    background-color: #021847;
+}
+
+/* show the drop down menu when clicked */
+.drop-work:hover .dropdown-content {
+    display: block;
+}
+
+/* Styling for the header buttons*/
+.tablink {
+   /* this is for the background of the button */ 
+    background-color: #021847;
+    color: #ffffff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #ffffff;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: #ffffff;
+    display: none;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Style each tab content individually */ 
+#AboutMe {background-color:rgb(0, 149, 255);}
+#Github {background-color:rgb(0, 149, 255);}
+#Resume {background-color:rgb(0, 149, 255);}
+#LinkedIn {background-color:rgb(0, 149, 255);}
+
+div#AboutMe, div#Github, div#Resume, div#LinkedIn {
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+button#defaultOpen {
+    opacity: 0.9;
+    border-radius: 12px;
+}
+
+a.link {
+    color: white;
+}
+div#navbar.navbar {
+    display: block;
+}
+ul#Video-projects {
+    padding: 0;
+}
+/*
+#video {
+    background: none;
+    padding: 10px;
+    border: 10px;
+    widht: 50px;
+}
+*/

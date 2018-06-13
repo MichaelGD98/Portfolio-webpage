@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example Work</title>
+        <link rel="stylesheet"  type="text/css" href="css/portfolio-styles.css">
+    </head>
+        <body>
+            <div class="wrapper">
+                <!-- the header group -->
+                <div class="header">
+                    <div id="AboutMe" class="tabcontent">
+                        <h3>About Me</h3>
+                        <p>This is where I will type a bio</p>
+                    </div>
+                    <div id="Github" class="tabcontent">
+                        <h3>Github</h3>
+                        <p>Here is a link to my github <a class="link" href="https://github.com/MichaelGD98">(link)</a></p>
+                    </div>
+                    <div id="Resume" class="tabcontent">
+                        <h3>Resume</h3>
+                        <p>This is my resume</p>
+                    </div>
+                    <div id="LinkedIn" class="tabcontent">
+                        <h3>Linked-In</h3>
+                        <p>Check out my Linked-In
+                        <a class="link" href="https://www.linkedin.com/in/michael-degrado-a24987162/">(link)</a></p>
+                    </div>
+                    <!-- the buttons under the header that change what is displayed -->
+                <div>
+                    <button class="tablink" onclick="openDesc('AboutMe', this, 'rgb(0, 149, 255)')"
+                    id="defaultOpen">About Me</button>
+                    <button class="tablink" onclick="openDesc('Github', this, 'rgb(0, 149, 255)')"
+                    id="defaultOpen">Github</button>
+                    <button class="tablink" onclick="openDesc('Resume', this, 'rgb(0, 149, 255)')"
+                    id="defaultOpen">Resume</button>
+                    <button class="tablink" onclick="openDesc('LinkedIn', this, 'rgb(0, 149, 255)')"
+                    id="defaultOpen">Linked-In</button>
+                    </div>
+                </div>
+               <!-- The six pictures -->
+                <div>
+                    <div class="entry" id="Python" onclick="showNavbar('Python-projects')">
+                        <figure><img src="images/python.png"  />
+                            <figcaption><a href="#">Python</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="entry" id="html" onclick="showNavbar('html-projects')">
+                        <figure><img src="images/HTML5.jpg"  />
+                            <figcaption><a href="#">HTML 5</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="entry" id="Javascript" onclick="showNavbar('Javascript-projects')">
+                        <figure><img src="images/html-css-js.jpg" />
+                            <figcaption><a href="#">HTML / CSS / Js</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="entry" id="Audio" onclick="showNavbar('Audio-projects')">
+                        <figure><img src="images/audiopic.jpg" />
+                            <figcaption><a href="#">Audio</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="entry" id="Projects" onclick="showNavbar('Projects-projects')">
+                        <figure><img src="images/binary.jpg" alt="Projects" />
+                            <figcaption><a href="#">Projects</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="entry" id="Videos" onclick="showNavbar('Video-projects')">
+                        <figure><img src="images/youtube.jpeg" alt="Videos" />
+                            <figcaption><a href="#">Videos</a></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!-- this is the drop down menu for the assignments -->
+            <div id="align">
+                    <div class="navbar" id="navbar">
+                        <div class="work-drop">
+                            <!-- <button id="navbar-button"><a href="#">Button</a></button>  -->
+                            <div class="dropdown-content">
+                                    <div class="dropdown-content">
+                                            <ul class="hide" id="html-projects">
+                                                <h3>HTML Book Work</h3>
+                                                <li><a href="html-p/example-c05.html">Chapter 5 work</a></li>
+                                                <li><a href="html-p/example-7.html">Chapter 7 work</a></li>
+                                                <li><a href="html-p/example-2.html">Chapter 8 work</a></li>
+                                                <li><a href="html-p/example.html">Chapter 9 work</a></li>
+                                            </ul>
+                                            <ul class="hide" id="Audio-projects">
+                                                <h3>Produced by Slim Gucci</h3>
+                                                <audio src="audio-p/slimgucci.mp3" controls>Prod. $lim Gucci</audio>
+                                                <h3>Frank Ocean</h3>
+                                                <audio src="audio-p/frank.mp3" controls>Seigfried</audio>
+                                                <h3>Blue Foundation</h3>
+                                                <audio src="audio-p/blue.mp3" controls>Eyes on Fire</audio>
+                                            </ul>
+                                            <ul class="hide" id="Javascript-projects">
+                                                <h3>HTML, CSS, & JavaScript</h3>
+                                                <li><a href="javascript-p/example-3.html">Chapter 3 Work</a></li>
+                                                <li><a href="javascript-p/example-4.html">Chapter 4 Work</a></li>
+                                                <li><a href="javascript-p/example-5.html">Chapter 5 Work</a></li>
+                                                <li><a href="javascript-p/position.html">Chapter 6 (position) Work</a></li>
+                                                <li><a href="javascript-p/example-6.html">Chapter 6 Example Work</a></li>
+                                            </ul>
+                                            <ul class="hide" id="Python-projects">
+                                                <li><a href="python-p/"></a></li>
+                                                <li><a href="python-p/"></a></li>
+                                                <li><a href="python-p/"></a></li>
+                                                <li><a href="python-p/"></a></li>
+                                                <li><a href="python-p/"></a></li>
+                                            </ul>
+                                            <ul class="hide" id="Projects-projects">
+                                                <li><a href="projects-p/tvmenu2.html">Tv Guide</a></li>
+                                                <li><a href="tv-menu-and-stuff/projects-p/tvmenu2.html">Python CLI (needs link)</a></li>
+                                                <li><a href="projects-p/">Lotto Game (needs link)</a></li>
+                                                <li><a href="projects-p/">The Game of Unknown (needs link)</a></li>
+                                                <li><a href="projects-p/"></a></li>
+                                            </ul>
+                                            <ul class="hide" id="Video-projects">
+                                                <iframe src="https://www.youtube.com/embed/2MpUj-Aua48"></iframe>
+                                                <iframe src="https://www.youtube.com/embed/xcJtL7QggTI"></iframe>
+                                                <iframe src="https://www.youtube.com/embed/K1_k03Gvd5g"></iframe>
+                                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        <script src="portfolio-js.js"></script>
+</html>
